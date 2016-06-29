@@ -1,0 +1,91 @@
+* { margin: 0; padding: 0; }
+body {
+	background-image: url(img/body-bg.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center;
+	font: 13pt Tahoma, sans-serif;
+	color: #e6e6e6;
+}
+.page {
+	width: 830px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+header{
+	height: 205px;
+	position: relative;
+}
+.palm-tree {
+	position: absolute;
+	bottom: -3px;
+	left: 142px;
+}
+.logo{
+	position: absolute;
+	top: 129px;
+	left: 0;
+}
+.slogan{
+	position: absolute;
+	top: 173px;
+	left: 84px;
+}
+.contacts{
+	
+	position: absolute;
+	top: 152px;
+	right: 13px;
+}
+.contacts-title{
+	font-size: 8pt;
+	padding-bottom: 4px;
+}
+.contacts-info{
+	font-size: 7pt;
+}
+.contacts-info a{
+	color: #e6e6e6;
+	text-decoration: none;
+}
+main {
+	padding-bottom: 0px;
+}
+.country-row{
+	padding-bottom: 46px;
+}
+.country-box {
+	width: 270px;
+	position: relative;
+	display: inline-block;
+}
+.country-border{
+	width: 270px;
+	height: 189px;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 1;
+
+}
+.country-image {
+	width: 260px;
+	height: 178px;
+	position: relative;
+	top:5px;
+	left:5px;
+}
+.country-title {
+	font-size: 11pt;
+	text-align: center;
+	padding-top: 3px;
+	color: #e6e6e6;
+}
+footer {
+	padding: 132px 0 27px 0;	
+}
+.copy{
+	font-size: 8pt;
+	text-align: center;
+}
